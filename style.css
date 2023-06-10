@@ -1,0 +1,123 @@
+#head{
+    min-height: 95vh;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 0 5%;
+}
+
+body{
+    background-color: rgba(12, 148, 53, 0.664);
+    color:lavender;
+    font-size: 1.2rem;
+
+}
+article{
+    height: 500px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    overflow: auto;
+}
+header{
+    font-size: 1.5rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+   
+}
+.btn{
+    background-color: rgb(98, 146, 128);
+    color: rgb(252, 252, 252);
+    height: 15%;
+    border: 2px solid white;
+    border-radius:5%;
+    margin: 2% 0;
+    padding: 0 20px;
+    text-align: center;
+}
+.btn:hover{
+    border-color:rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+a:link{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(252, 252, 252);   
+}
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+main{
+    display:flex;
+   flex-direction: column;
+  Justify-content: space-between;
+  font-family: 'Tinos', serif;
+}
+#content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#menu{
+    flex-direction: row;
+    
+}
+.my_img{
+    height: 200px;
+    border: 2px solid white;
+align-items: center;
+
+}
+footer{
+ text-align: center;
+ font-size: 1rem;
+ margin-top: 5%;
+ font-family: 'Pattaya', sans-serif;
+}
+.articletext{
+    margin: 0 10%;
+}
+
+
+
+h1,h2{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+body{
+    font-size: 1.5rem;
+}}
+@media (min-width: 1024px){
+    body{
+        font-size: 2rem;
+        
+    }
+    footer{
+        font-size: 1.5rem;
+    }
+    header{
+        font-size: 3rem;
+    }
+    .btn{
+        padding:5px 20px;
+    }
+    .my_img{
+        height: 300px;
+    }
+    .article{
+        height:750px;
+    }
+}
+.alignspace{
+    display:flex;
+    justify-content: center;
+}
+
+
+
